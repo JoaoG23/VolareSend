@@ -34,11 +34,11 @@ class Email {
       })
       .then((info) => {
         console.info(info);
-        return [info , this.isCarregando ];
+        return [info , this.isCarregando ? 'Carregando ....' :'Finalizado' ];
       })
       .catch((erro) => {
         console.error(erro);
-        return [erro , this.isCarregando ];
+        return [erro , this.isCarregando ? 'Carregando ....' :'Finalizado' ];
       }).finally(() => {
         this.isCarregando = false;
         console.log(this.isCarregando ? 'Carregando ....' :'Finalizado')

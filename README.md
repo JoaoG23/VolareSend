@@ -12,23 +12,21 @@ Surfando também na onda de micro serviços, **VolareSend** é serviço de gera�
  <li> <a href="#tech">2 - ⚙️ Tech Usadas</a> • </li>
  <li> <a href="#instalar">3 - 👇🤘 Como instalar</a> • </li>
  <li> <a href="#usar">4 - 🤘Como Usar</a> • </li>
- <li> <a href="#consideraçoesfinais">5 - Considerações finais </a> • </li>
- <li> <a href="#outros">6 -📁😅🤪 Coisa não tão relevantes</a> • </li>
- <li> <a href="#autor">7 -🧑‍💻 Autor</a> • </li>
- <li> <a href="#licensa"> 8- Licença</a> • </li>
+ <li> <a href="#consideraçoesfinais">5 - 😭Considerações finais </a> • </li>
+ <li> <a href="#autor">6 -🧑‍💻 Autor</a> • </li>
+ <li> <a href="#licenca"> 7- Licença</a> • </li>
 </p>
 
 <h2 id='edicoes'>Edições 🪡</h2>
 
 Alterações   | Data | Versão
 :---------: | :------: | :------:
-Correção Bugs erros | 06/09/2022 | 1.0.0
-Emissão Inicial | 05/09/2022 | 1.0.0
+Emissão Inicial | 02/10/2022 | 1.0.0
 
 
 <h2 id='introdução' color=green ><b>Introdução🚪</b></h2>
 
-Devido as minhas demandas de serviços de mensageria criei esse serviço para servi minhas aplicação. Ele apenas envia e-mails tem somente uma rota.
+Devido as minhas demandas de serviços de mensageria criei esse serviço para servi minhas aplicação. Ele apenas envia e-mails através de rotas.
 
 <h2 id='tech' ><b>Techs Usadas 🦾</b></h2>
 
@@ -60,6 +58,8 @@ Devido as minhas demandas de serviços de mensageria criei esse serviço para se
 1. Inicie o servidor com **npm start ou npm run dev**
 1. Somente com uma rota, basta enviar no corpo da requisição esse dados.
 
+Exemplo de body:
+
 
         {
             "destinario":"emaildestino@email.com",
@@ -73,7 +73,7 @@ Devido as minhas demandas de serviços de mensageria criei esse serviço para se
 
 Muito obrigado a todos que visualizaram esse repositório, fico muito feliz por isso.
 
-<h2 id='autor'><b>8 - Autor ✍🏻</b></h2>
+<h2 id='autor'><b>6 - Autor ✍🏻</b></h2>
 
  <img style="border-radius:50%;" src="https://avatars.githubusercontent.com/u/80895578?v=4" width="100px;" alt=""/>
  <br />
@@ -84,7 +84,7 @@ Feito com 🤭 por Joao Guilherme 👋🏽 Entre em contato!
 [![Linkedin Badge](https://shields.io/badge/-Joao-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jaoo/)](https://www.linkedin.com/in/joaog123/)
 [![Badge](https://shields.io/badge/-joaoguilherme94@live.com-c80?style=flat-square&logo=Microsoft&logoColor=white&link=mailto:joaoguilherme94@live.com)](mailto:joaoguilherme94@live.com)
 
-<h2 id='licenca'><b>8 - Licença</b></h2>
+<h2 id='licenca'><b>7 - Licença</b></h2>
 
 [![Licence](https://shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
