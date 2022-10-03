@@ -7,6 +7,7 @@
         "prod": "node dist/index.js",
         "build": "tsc",
         "test": "vitest",
+        "deploy" : "vercel deploy --prod",
         "dev": "npx nodemon --exec ts-node --files src/index.ts",
         "start": "ts-node ./src/index.ts"
     },
