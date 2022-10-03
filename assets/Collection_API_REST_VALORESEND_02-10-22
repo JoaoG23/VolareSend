@@ -1,0 +1,69 @@
+_type: export
+__export_format: 4
+__export_date: 2022-10-02T23:22:48.273Z
+__export_source: insomnia.desktop.app:v2022.6.0
+resources:
+  - _id: req_d93cf99fa7144c3e9e46a1cb0e4d1d1b
+    parentId: wrk_23a7d6f60da740dcba2b16901e2781d4
+    modified: 1664752834401
+    created: 1664666989354
+    url: http://localhost:3000/api/
+    name: Enviar Email
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"destinario":"joaoguilherme94@live.com",
+        	"assunto":"TESTE ENVIO de Emails",
+        	"corpo":"Escreva aqui o corpo do email"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1664666989354
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_23a7d6f60da740dcba2b16901e2781d4
+    parentId: null
+    modified: 1664666981944
+    created: 1664666981944
+    name: VolareSend
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: env_94061542541c9e3b0b6757d1835eeda5ce6b7c10
+    parentId: wrk_23a7d6f60da740dcba2b16901e2781d4
+    modified: 1664666981952
+    created: 1664666981952
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1664666981952
+    _type: environment
+  - _id: jar_94061542541c9e3b0b6757d1835eeda5ce6b7c10
+    parentId: wrk_23a7d6f60da740dcba2b16901e2781d4
+    modified: 1664666981954
+    created: 1664666981954
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_ed105e70d11249b48725df212044f8fb
+    parentId: wrk_23a7d6f60da740dcba2b16901e2781d4
+    modified: 1664666981947
+    created: 1664666981947
+    fileName: VolareSend
+    contents: ""
+    contentType: yaml
+    _type: api_spec

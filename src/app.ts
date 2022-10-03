@@ -23,7 +23,7 @@ class App {
     }
     
     private routers():void{
-        // this.express.use('/', redirect);
+        this.express.use('/', redirect);
         this.express.use('/api', emailRouters);
     }
 }

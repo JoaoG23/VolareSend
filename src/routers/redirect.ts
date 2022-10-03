@@ -2,9 +2,9 @@ import { Router } from "express";
 import { Request, Response } from "express";
 const routers = Router();
 
-routers.use("/", (req: Request, res: Response) => {
+routers.get("/", (req: Request, res: Response) => {
   try {
-    res.status(300).redirected("/api");
+       res.status(302).redirect("/api/");
   } catch (error) {
     res.send(error);
   }
