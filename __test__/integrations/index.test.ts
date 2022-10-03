@@ -1,5 +1,5 @@
 import request from "supertest";
-import app from "../../app";
+import app from "../../src/app";
 import { it, describe, expect } from "vitest";
 import { destinario } from "../seeds";
 
