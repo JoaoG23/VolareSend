@@ -38,7 +38,7 @@ class Email {
       })
       .catch((erro) => {
         console.error(erro);
-        return [erro , this.isCarregando ? 'Carregando ....' :'Finalizado' ];
+        return erro;
       }).finally(() => {
         this.isCarregando = false;
         console.log(this.isCarregando ? 'Carregando ....' :'Finalizado')

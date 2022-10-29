@@ -16,7 +16,7 @@ class EmailController {
       let gerarEnvio = await new Email(destinario,assunto,corpo);
 
       const enviado = await gerarEnvio.enviar();
-     res.send({ situacao:true , msg:'Email sendo enviado com sucesso.'});
+      await res.json({ situacao: true , msg:'Enviando email...' , dadosmensageria:enviado  });
     } catch (error) {
       res.status(404).send({ situacao:false , msg:'Erro ao enviar o email.'});
       console.error(error);
